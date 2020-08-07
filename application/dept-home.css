@@ -1,0 +1,138 @@
+.sec-brand {
+  border-top: #cebbc9 solid 5px;
+  padding: 20px 0 20px 0;
+}
+.chair-brand {
+  border-top: #004D66 solid 5px;
+  padding: 20px 0 20px 0;
+}
+.digi-brand {
+  border-top: #779CAB solid 5px;
+  padding: 20px 0 20px 0;
+}
+.dept-brandless {
+  padding-bottom: 20px;
+}
+.featured-big-title a {
+  font-size: 22px;
+  margin-bottom: 2px;
+  font-family: "Interstate", Arial, sans-serif;
+  margin-top: 4px;
+  font-weight: bold;
+  text-decoration-line: none;
+  line-height: 1.25;
+}
+.featured-big-title a:hover {
+  color: #0b0c0c;
+  font-weight: bold;
+  text-decoration-line: underline;
+  margin-bottom: 2px;
+}
+.featured-big-text {
+  font-size: 18px;
+    font-family: "Interstate", Arial, sans-serif;
+}
+.featured-big-img {
+  width: 600px;
+}
+.featured-big-context {
+  font-family: "Interstate", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: -2px;
+    color: #505a5f;
+}
+}
+.sec-home-links__div {
+  float: right;
+      padding-right: 40px
+}
+.sec-home-links a {
+  color: #946b89;
+  font-weight: bold;
+  text-decoration-line: none;
+  font-size: 16px;
+      line-height: 1.25;
+    }
+.sec-home-links a:hover {
+  color: #0b0c0c;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+.sec-home-type {
+  color: #946b89;
+}
+.sec-home-type a {
+  color: #946b89;
+}
+
+.digi-home-links__div {
+  float: right;
+      padding-right: 40px
+}
+.digi-home-links a {
+  color: #4e717e;
+  font-weight: bold;
+  text-decoration-line: none;
+  font-size: 16px;
+      line-height: 1.25;
+    }
+.digi-home-links a:hover {
+  color: #0b0c0c;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+.digi-home-type {
+  color: #4e717e;
+}
+.digi-home-type a {
+  color: #4e717e;
+}
+
+.chair-home-links__div {
+  float: right;
+      padding-right: 40px
+}
+.chair-home-links a {
+  color: #0099cc;
+  font-weight: bold;
+  text-decoration-line: none;
+  font-size: 16px;
+      line-height: 1.25;
+    }
+.chair-home-links a:hover {
+  color: #0b0c0c;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+.chair-home-type {
+  color: #0099cc;
+}
+.chair-home-type a {
+  color: #0099cc;
+}
+.organisation__margin-bottom {
+    margin-bottom: 30px;
+}
+.organisation__section-wrap {
+    word-wrap: break-word;
+}
+.organisation__brand-border-top {
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+.organisation-logo__type {
+  font-size: 14px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+@media (min-width: 40.0625em) {
+.view-all {
+  font-size: 16px;
+}
+}
+.view-all {
+  font-size:14px;
+}
