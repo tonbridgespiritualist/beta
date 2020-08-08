@@ -2,6 +2,10 @@
   border-top: #cebbc9 solid 5px;
   padding: 20px 0 20px 0;
 }
+.exec-brand {
+  border-top: #F1B50F solid 5px;
+  padding: 20px 0 20px 0;
+}
 .chair-brand {
   border-top: #004D66 solid 5px;
   padding: 20px 0 20px 0;
@@ -44,7 +48,6 @@
     line-height: 1.25;
     margin-bottom: -2px;
     color: #505a5f;
-}
 }
 .sec-home-links__div {
   float: right;
@@ -114,6 +117,29 @@
 .chair-home-type a {
   color: #0099cc;
 }
+
+.exec-home-links__div {
+  float: right;
+      padding-right: 40px
+}
+.exec-home-links a {
+  color: #c1900b;
+  font-weight: bold;
+  text-decoration-line: none;
+  font-size: 16px;
+      line-height: 1.25;
+    }
+.exec-home-links a:hover {
+  color: #0b0c0c;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+.exec-home-type {
+  color: #c1900b;
+}
+.exec-home-type a {
+  color: #c1900b;
+}
 .organisation__margin-bottom {
     margin-bottom: 30px;
 }
@@ -128,6 +154,16 @@
   font-size: 14px;
   font-family: Tahoma, Geneva, sans-serif;
 }
+.organisation-logo__type a {
+  font-size: 14px;
+  color: #000000;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-decoration: none;
+}
+.organisation-logo__type a:hover {
+  font-size: 14px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
 @media (min-width: 40.0625em) {
 .view-all {
   font-size: 16px;
@@ -135,4 +171,46 @@
 }
 .view-all {
   font-size:14px;
+}
+.office-top-mid {
+  border-bottom: 1px solid #b1b4b6;
+  font-family: Tahoma, Geneva, sans-serif;
+  padding: 20px 0 20px 0;
+  list-style: none;
+}
+.office-bot {
+  font-family: Tahoma, Geneva, sans-serif;
+  padding: 20px 0 20px 0;
+  list-style: none;
+}
+.sect-title {
+  font-size: 27px;
+  line-height: 1.11111111;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Interstate", Arial, sans-serif;
+}
+.sect-number {
+  font-size: 80px;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Interstate", Arial, sans-serif;
+}
+
+.organisation-logo-search__type {
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.organisation-logo-search__type a {
+  font-size: 16px;
+  color: #000000;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-decoration: none;
+}
+.organisation-logo-search__type a:hover {
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #000000;
+  text-decoration-line: underline;
 }
