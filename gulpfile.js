@@ -25,6 +25,7 @@ gulp.task('browserSync', function() {
     browserSync.init({
         server: {
             baseDir: PATHS.output
+            port: 443
         },
     });
 });
