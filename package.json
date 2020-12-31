@@ -4,7 +4,6 @@
   "description": "Tonbridge Spiritualist Centre web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test needed",
     "start": "node node_modules/gulp/bin/gulp.js auto"
   },
   "author": "me@thatjay.co.uk",
