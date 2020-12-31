@@ -1,13 +1,13 @@
 {
-  "name": "nunjucks-starter-kit",
+  "name": "tsc",
   "version": "1.0.0",
-  "description": "Nunjucks starter kit",
+  "description": "Tonbridge Spiritualist Centre web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test needed",
     "start": "node node_modules/gulp/bin/gulp.js auto"
   },
-  "author": "wzulfikar@ymail.com",
+  "author": "me@thatjay.co.uk",
   "license": "MIT",
   "homepage": "#",
   "devDependencies": {
