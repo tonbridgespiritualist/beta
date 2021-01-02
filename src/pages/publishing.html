@@ -1,0 +1,37 @@
+{% extends "blank.html" %}
+
+{% set page = 'publishing' %}
+
+{% block title %}
+Publishing a service on tonbridgespiritualist.com
+{% endblock title %}
+
+{% block breadcrumbs %}
+    <li class="tsc-breadcrumbs__list-item">
+      <a class="tsc-breadcrumbs__link" href="/">Home</a>
+    </li>
+{% endblock breadcrumbs %}
+
+{% block pageheading %}
+Publishing a service on tonbridgespiritualist.com
+{% endblock pageheading %}
+
+{% block content %}
+<p class="tsc-body">Once you have made your service, there are three steps you need to do to publish it to tonbridgespiritualist.com.</p>
+<ol class="tsc-list tsc-list--number">
+  <li>Get a service.tonbridgespiritualist.com domain from the Digital Service.</li>
+  <li>Upload your NDK to a private repository within the <a class="tsc-link" href="https://github.com/tonbridgespiritualist">tonbridgespiritualist</a> GitHub organisation.<br><p class="tsc-body-s">Don't forget to remove the node_modules folder before though.</p></li>
+  <li>Upload your dist folder to the public repository created by the Digital Service, linked to your service domain.</li>
+  </ol>
+
+<div class="tsc-inset-text">
+  If you have a service start page, you should open a pull request to integrate this into tonbridgespiritualist.com in the main directory. It should share it's filename with your service domain.<br><p class="tsc-body-s">For example if your service is hosted on watch-past-session[...], your start page should be called watch-past-session.html.</p>
+  </div>
+
+  <p class="tsc-body">If you need help, you can contact the <a href="mailto:dev@digital.sec.tonbridgespiritualist.com" class="tsc-link"><strong>Development Support Office</strong></a>.</p>
+{% endblock content %}
+
+
+{% block pubdate %}
+1 January 2021
+{% endblock pubdate %}

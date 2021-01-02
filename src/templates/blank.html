@@ -55,52 +55,27 @@
 </div>
 
         <main class="tsc-main-wrapper tsc-main-wrapper--auto-spacing" id="main-content" role="main">
-          <div class="tsc-grid-row">
+          <div class="tsc-grid-row-last">
 	<div class="tsc-grid-column-two-thirds">
-<span class="tsc-caption-l">{% block caption %}{% endblock %}</span>
 <h1 class="tsc-heading-xl">{% block pageheading %}{% endblock %}</h1>
 </div>
-<div class="tsc-grid-column-two-thirds">
-<p class="gem-c-lead-paragraph">{% block leadparagraph %}{% endblock %}</p>
-</div>
-</div>
-<div class="tsc-grid-row-last">
   <div class="metadata-logo-wrapper">
-    <div class="tsc-grid-column-two-thirds metadata-column">
-        <div class="app-c-publisher-metadata" lang="en">
-    <div class="app-c-published-dates " lang="en">
-    Published {% block pubdate %}{% endblock %}
-</div>
 
-      <div class="app-c-publisher-metadata__other">
-              From:
-                <span class="app-c-publisher-metadata__definition-sentence">
-                  {% block authors %}{% endblock %}
-                </span>
-            </dd>
-        </dl>
-      </div>
-  </div>
-</div>
 
  <div class="article-row">
 	<div class="tsc-grid-column-two-thirds">
-        {% block article %}{% endblock %}
+        {% block content %}{% endblock %}
+</div>
+<div class="tsc-grid-column-two-thirds">
+    <div class="app-c-publisher-metadata" lang="en">
+      <div class="app-c-published-dates " lang="en">
+        Published {% block pubdate %}{% endblock %}
+      </div>
+    </div>
 </div>
 <div class="tsc-grid-column-one-third">
-
-      <aside class="app-related-items" role="complementary">
-        <h2 class="tsc-heading-m" id="subsection-title">
-          Similar content
-        </h2>
-        <nav role="navigation" aria-labelledby="subsection-title">
-          <ul class="tsc-list tsc-!-font-size-16">
-              {% block similarcontent %}{% endblock %}
-          </ul>
-        </nav>
-      </aside>
-
-    </div>
+              {% block onethird %}{% endblock %}
+  </div>
   </div>
 </div>
 </div>

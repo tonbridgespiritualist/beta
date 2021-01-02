@@ -36,31 +36,14 @@ Nunjucks Development Kit - tonbridgespiritualist.com
 
 
 
-      <header class="tsc-header-home " role="banner" data-module="tsc-header">
-  <div class="tsc-header__container tsc-width-container">
-    <div class="tsc-header__logo">
-      <a href="/" class="tsc-header__link tsc-header__link--homepage">
-        <span class="tsc-header__logotype">
-   <img src="https://tonbridgespiritualist.com/application/tsc-yellow.svg" width="100px">
-        </span>
-
-      </a>
-    </div>
-
-  </div>
-</header>
-
+      {% include "partials/landingpage-header.html" %}
 
          <header class="home-top">
     <div class="tsc-width-container home-top__inner">
       <div class="tsc-grid-row">
         <div class="tsc-grid-column-two-thirds">
-          <h1 class="home-top__title">
-Nunjucks Development Kit
-</h1>
-          <p class="home-top__intro">
-The simple way to create content for tonbridgespiritualist.com services.
-</p>
+          <h1 class="home-top__title">{% block hometitle %}{% endblock %}</h1>
+          <p class="home-top__intro">{% block homedesc %}{% endblock %}</p>
 <br>
         </div>
       </div>
@@ -78,48 +61,17 @@ The simple way to create content for tonbridgespiritualist.com services.
   </div>
  <div class="tsc-grid-row-last">
  <div class="tsc-grid-column-one-third">
-<a class="dept-num__link" href="
-/templates.html
-">
+<a class="dept-num__link" href="{% block numberlink %}{% endblock %}">
 <h2 class="dept-num">
-
-5
-
+{% block bignumber %}{% endblock %}
 </h2>
 <p class="service-body">
-
-templates available to use
-
-</p>
-</a>
-<a class="dept-num__link" href="
-/templates.html
-">
-<h2 class="dept-num">
-
-0
-
-</h2>
-<p class="service-body">
-
-services currently using the NDK
-
+{% block bigtext %}{% endblock %}
 </p>
 </a>
 </div>
   <div class="tsc-grid-column-two-thirds">
-<p class="home-body-top">
-The Nunjucks Development Kit allows for easy creation of pages and services for tonbridgespiritualist.com.<br>We have a library of premade templates and components but you can make your own.
-</p>
-
-  <a class="tsc-button" href="https://github.com/tonbridgespiritualist/beta/archive/master.zip">
-  Download the kit
-  </a>
-
-<a class="tsc-button tsc-button--secondary" href="/getstarted.html">
-  Get started guide
-</a>
-
+<p class="home-body-top">{% block maintext %}{% endblock %}</p>
 </div>
 </div>
 </div>
@@ -129,36 +81,7 @@ The Nunjucks Development Kit allows for easy creation of pages and services for 
 
 
 
-<footer class="tsc-footer " role="contentinfo">
-  <div class="tsc-width-container ">
-    <div class="tsc-footer__meta">
-      <div class="tsc-footer__meta-item tsc-footer__meta-item--grow">
-        <h2 class="tsc-visually-hidden">Support links</h2>
-        <ul class="tsc-footer__inline-list">
-          <li class="tsc-footer__inline-list-item">
-            <a class="tsc-footer__link" href="#1">
-              About Tonbridge Spiritualist Centre
-            </a>
-          </li>
-          <li class="tsc-footer__inline-list-item">
-            <a class="tsc-footer__link" href="#2">
-              Digital Service
-            </a>
-          </li>
-        </ul>
-
-        <span class="tsc-footer__licence-description">
-          All content is available under the
-          <a class="tsc-footer__link" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons BY-NC-ND</a>, except where otherwise stated
-        </span>
-      </div>
-      <div class="tsc-footer__meta-item">
-        <a class="tsc-footer__link tsc-footer__copyright-logo" href="/copyright.html">© Tonbridge Spiritualist Centre</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
+{% include "partials/footer.html" %}
 
 
 

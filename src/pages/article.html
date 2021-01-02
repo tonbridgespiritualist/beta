@@ -1,60 +1,51 @@
 {% extends "article.html" %}
 
+{% set page = 'article' %}
+
 {% block title %}
 Demo Article
 {% endblock title %}
 
 {% block breadcrumbs %}
     <li class="tsc-breadcrumbs__list-item">
-      <a class="tsc-breadcrumbs__link" href="#">Home</a>
+      <a class="tsc-breadcrumbs__link" href="/">Home</a>
     </li>
     <li class="tsc-breadcrumbs__list-item">
-      <a class="tsc-breadcrumbs__link" href="#">Coronavirus (COVID-19)</a>
+      <a class="tsc-breadcrumbs__link" href="org/offices/digital">Digital Service</a>
     </li>
 {% endblock breadcrumbs %}
 
 {% block caption %}
-News story
+Article
 {% endblock caption %}
 
 {% block pageheading %}
-Order of Service for our Remembrance service
+Demo Article
 {% endblock pageheading %}
 
 {% block leadparagraph %}
-The Order of Service for our Remembrance Service with Rev. Sue Bailey.
+This is a demo article from the Digital Service.
 {% endblock leadparagraph %}
 
 {% block pubdate %}
-8 November 2020
+29 December 2019
 {% endblock pubdate %}
 
 {% block authors %}
 <span class="app-c-publisher-metadata__definition-sentence">
-                  <a class="tsc-link" href="/org/offices/secretary">Office of the Secretary</a> and <a class="tsc-link" href="/org/offices/chair">Office of the Chair</a>
+                  <a class="tsc-link" href="/org/offices/digital">Digital Service</a> and <a class="tsc-link" href="/org/people/jay-bragg">Jay Bragg</a>
 </span>
 {% endblock authors %}
 
 {% block article %}
-<p class="tsc-body">Whilst this Remembrance Sunday will be different to any other, we will still be here to offer you a Zoom service as special as possible.</p>
-        <h3 class="tsc-heading-m">Order of Service</h3>
-        <ol class="tsc-list tsc-list--number">
-    <li>Welcome from Lisa</li>
-      <li>Opening Prayer from Sue</li>
-  <li>Healing Book</li>
-  <li>Poem - For the Fallen</li>
-    <li>2 minute silence</li>
-      <li>The Last Post</li>
-        <li>Song - Heaven Was Needing A Hero - Jo Dee Messina</li>
-          <li>Clairvoyance from Rev. Sue Bailey</li>
-            <li>Closing Prayer from Sue</li>
-</ol>
+<p class="tsc-body">This is a demo article to show the article layout on tonbridgespiritualist.com.</p>
+
 {% endblock article %}
 
 {% block similarcontent %}
 <li>
-              <a class="tsc-link" href="/org/news/phase-one.html">
-                Phase One: Moving Online
+              <a class="tsc-link" href="/org/projects/digital-updates">
+                Digital Updates
               </a>
             </li>
 {% endblock %}
